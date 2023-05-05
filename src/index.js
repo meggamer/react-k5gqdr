@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+
 function Page() {return React.createElement('div', null, [
   React.createElement('h1', null, `Hi ${Date.toLocaleString()}`),
   React.createElement('p', null, 'Hello'),
@@ -14,4 +15,7 @@ function Page() {return React.createElement('div', null, [
 const rootEL = document.querySelector('#root');
 const root = ReactDom.createRoot(rootEl);
 
-root.render(Page());
+
+setInterval(function(){
+  root.render(Page());
+}, 1000);

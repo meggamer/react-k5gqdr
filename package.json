@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,6 +13,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "react-scripts": "latest",
+    "react-dom": "^18.1.0"
   }
 }
