@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './style.css';
+
 
 
 
@@ -14,8 +13,11 @@ function Page() {return React.createElement('div', null, [
 }
   
 
-
-
 const rootEL = document.querySelector('#root');
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
+
+setInterval(function(){
+  root.render(Page());
+}, 1000);
