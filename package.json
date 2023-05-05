@@ -14,6 +14,6 @@
   },
   "devDependencies": {
     "react-scripts": "latest",
-    "react-dom": "^18.1.0"
+
   }
 }
