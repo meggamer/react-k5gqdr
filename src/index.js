@@ -1,5 +1,5 @@
-import React from 'react'
-, ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 
 function Page() {return React.createElement('div', null, [
