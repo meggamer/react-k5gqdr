@@ -19,7 +19,3 @@ function Page() {return React.createElement('div', null, [
 const rootEL = document.querySelector('#root');
 
 
-
-setInterval(function(){
-  root.render(Page());
-}, 1000);
