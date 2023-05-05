@@ -1,9 +1,9 @@
 import React from 'react';
 export function Header(props) {
-  let clock = Date().toLocaleString();
+  let [clock, setClock] = React.useState(Date().toLocaleString());
 
   setInterval(() => {
-    clock = Date().toLocaleString();
+    setClock(Date().toLocaleString());
   }, 1000);
 
   console.log('Header executed');
